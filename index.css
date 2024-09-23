@@ -1,0 +1,44 @@
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    width: 300px;
+    height: 650px;
+    gap: 1rem;
+    box-shadow: 0px 0px 2px 1px;
+    border-radius: 5%;
+    background-color: white;
+}
+.p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+}
+body {
+    background-color: azure;
+    display: grid;
+    place-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.s p:nth-last-of-type(1){
+    margin-left:75px;
+    margin-bottom:30px;
+}
+.ph{
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 100%;
+}
